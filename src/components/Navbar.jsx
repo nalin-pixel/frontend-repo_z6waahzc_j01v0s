@@ -9,11 +9,11 @@ function Navbar() {
           <span className="text-sm font-semibold text-white">ERFMS</span>
         </a>
         <nav className="hidden items-center gap-6 text-blue-100/80 sm:flex">
-          <a href="#preview" className="hover:text-white">Features</a>
-          <a href="/test" className="hover:text-white">Status</a>
-          <a href="#cta" className="rounded-md bg-white/10 px-3 py-1.5 text-white hover:bg-white/20">Get Started</a>
+          <a href="#preview" className="hover:text-white">Fonctionnalités</a>
+          <a href="/test" className="hover:text-white">Statut</a>
+          <a href="#cta" className="rounded-md bg-white/10 px-3 py-1.5 text-white hover:bg-white/20">Commencer</a>
         </nav>
-        <button className="rounded-md border border-white/10 p-2 text-white sm:hidden">
+        <button className="rounded-md border border-white/10 p-2 text-white sm:hidden" aria-label="Ouvrir le menu">
           <Menu size={18} />
         </button>
       </div>

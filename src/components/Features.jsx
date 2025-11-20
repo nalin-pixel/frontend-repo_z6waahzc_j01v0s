@@ -11,19 +11,19 @@ function Features() {
   return (
     <section id="preview" className="relative mx-auto max-w-6xl px-6 py-16">
       <div className="mb-10 text-center">
-        <h2 className="text-3xl font-semibold text-white sm:text-4xl">Built for energy renovation teams</h2>
+        <h2 className="text-3xl font-semibold text-white sm:text-4xl">Conçu pour les équipes de rénovation énergétique</h2>
         <p className="mx-auto mt-2 max-w-2xl text-blue-100/80">
-          Start with the essentials: projects, CEE/MAR, audits, and documents. Extend as you grow.
+          Commencez par l’essentiel : projets, CEE/MAR, audits et documents. Étendez au fur et à mesure.
         </p>
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <Feature title="Project Hub" desc="Create and track projects, assign owners, manage timelines and budgets." />
-        <Feature title="CEE Management" desc="Follow applications from draft to approval. Attach proofs and generate reports." />
-        <Feature title="Ma Prime Rénov'" desc="Track eligibility, submission, and payments. Keep a clear audit trail." />
-        <Feature title="Energy Audits" desc="Schedule audits, upload reports, and monitor client review status." />
-        <Feature title="Documents" desc="Versioned uploads for quotes, invoices, specs, and photos — all centralized." />
-        <Feature title="Client Portal" desc="Give clients secure access to progress, documents, and notifications." />
+        <Feature title="Centre de projets" desc="Créez et suivez les projets, assignez les responsables, gérez plannings et budgets." />
+        <Feature title="Gestion CEE" desc="Pilotez les dossiers du brouillon à l’acceptation. Joignez les justificatifs et générez des rapports." />
+        <Feature title="Ma Prime Rénov'" desc="Suivez l’éligibilité, le dépôt et les paiements. Maintenez une traçabilité claire." />
+        <Feature title="Audits énergétiques" desc="Planifiez les audits, importez les rapports et suivez les validations clients." />
+        <Feature title="Documents" desc="Téléversements versionnés pour devis, factures, CCTP, photos — tout centralisé." />
+        <Feature title="Portail client" desc="Donnez un accès sécurisé à l’avancement, aux documents et aux notifications." />
       </div>
     </section>
   )
